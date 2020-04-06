@@ -1,0 +1,90 @@
+body{
+    background-color: #CDE9F1;
+    color:gray;
+}
+header, main, nav{
+    text-align:center;
+}
+nav a{ /*links within "nav" container*/
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color:gray;
+}
+nav a:hover{ /*pseudo class*/
+    border-bottom: 2px black solid;
+    font-size: 2em;
+    transition: .1s;/*transition effect*/
+}
+#aware, #self, #medical{
+    float: left;
+}
+table{
+    margin: 20px auto;
+}
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    color:orange;
+}
+#table-header{
+    background-color: white;
+}
+.table-row{
+    background-color: white;
+}
+ul{
+    text-align: left;
+    padding-left: 150px;
+}
+.hobby{
+    color:yellow;
+}
+#content{
+    text-align: center;
+}
+@keyframes animation{
+    from{
+        letter-spacing: 32px;
+    }
+    to{
+        letter-spacing: 0;
+    }
+}
+.animated{
+    animation: animation 5s ease 1s;
+}
+
+h1{
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.-shape-outside {
+    shape-outside: circle(50%);
+    float: left;
+}
+
+.circle {
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 24px;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+html, body {
+  height: auto;
+}
+#medical{
+    width:50%;
+    height:50%;
+}
